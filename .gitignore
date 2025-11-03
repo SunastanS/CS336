@@ -1,0 +1,33 @@
+# Environment / tooling
+.venv/
+.env
+.env.*
+.python-version
+.vscode/
+.idea/
+
+# Python cache / build outputs
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+build/
+dist/
+
+# Project artifacts
+assignment1-basics/data/
+assignment1-basics/**/__pycache__/
+assignment1-basics/**/.pytest_cache/
+assignment1-basics/**/.ruff_cache/
+wandb/
+checkpoints/
+llm.c-master/
+nanochat-master/
+datasets/
+
+# Logs
+*.log
